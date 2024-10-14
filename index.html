@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>БЭМ страница></title>
+</head>
+<body>
+   <!-- <Блок header -->
+    <header class="header">
+       <h1 class="header__title"Добро пожаловать на мою страницу></h1> 
+       <nav class="header__nav">
+        <ul class="header__menu">
+            <li class="header__menu__item">
+                <a href="#main" class="header__menu__link">Главная</a>
+            </li>
+            <li class="header__menu__item">
+                <a href="#about" class="header__menu__link">Обо мне</a>
+            </li>
+           <li  class="header__menu__item">
+            <a href="#contacts" class="header__menu__link">Контакты</a>
+        </li>
+        </ul>
+       </nav>
+       <figure class="header__image">
+        <img 
+          src="img/Шар.jpg"
+          alt="фото"
+          class="header__img"
+          width="30%"
+          />
+     </figure>
+    </header>
+    <!-- Блок main-->
+    <main class="main-content">
+        <section class="about">
+            <h2 class="about__title">Обо мне</h2>
+            <p class="about__text">
+              Меня зовут Игорь
+            </p>
+            <p class="about__text">
+                я изучаю HTML
+            </p>
+        </section>
+
+        <section class="projects">
+            <h2 class="projects__title">Проекты</h2>
+            <ul class="projects__list">
+                <li class="projects__list__item">
+                    <h3 class="projects__list__item__title">Проект 1.</h3>
+                    <p class="projects__list__item__description">Описание проекта 1.</p>
+                </li> 
+                <li class="projects__list__item">
+                    <h3 class="projects__list__item__title">Проект 2.</h3>
+                    <p class="projects__list__item__description">Описание проекта 2.</p>
+                </li>
+                <li class="projects__list__item">
+                    <h3 class="projects__list__item__title">Проект 3.</h3>
+                    <p class="projects__list__item__description">Описание проекта 3.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="contacts">
+            <h2 class="contacts__title">Контакты</h2>
+            <p class="contacts__text">
+                Вы мщжете связаться со мной по электронной почте 
+                on_kishenko@mail.ru
+            </p>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__text"> &copy; 2024 год. Все права защищены.</p>
+    </footer>
+</body>
+</html>
